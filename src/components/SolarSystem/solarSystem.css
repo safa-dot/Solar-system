@@ -1,0 +1,61 @@
+.solarsystem-container {
+	width: 100%;
+	height: 100vh;
+}
+.solarsystm-container .solarsystem {
+	position: relative;
+	transform: translate(-500px, -30px);
+}
+.solarsystm-container .solarsystem img {
+	animation: rotation 15s linear infinite;
+}
+@keyframes rotation {
+	0% {
+		transform: rotate(0);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.solarsystm-container .myths .card {
+	width: 400px;
+	height: 470px;
+}
+.solarsystm-container .myths .card {
+	background-image: url(../../assets/images/galaxy.png);
+	background-size: cover;
+	color: rgb(255, 140, 0) !important;
+}
+
+.solarsystm-container .myths .swiper {
+	width: 950px;
+	height: 470px;
+}
+
+.solarsystm-container .myths .swiper .swiper-pagination  {
+ color: rgb(255, 184, 98);
+}
+
+@media (max-width: 576px){
+	.solarsystm-container h3{
+		padding-bottom: 50px;
+
+	}
+}
+
+@media (min-width: 576px){
+	.solarsystm-container h3{
+		padding-bottom: 50px;
+
+	}
+}
+@media (min-width: 992px) {
+	.solarsystm-container .solarsystem{
+		transform: translate(-66%, -30px);
+		
+	}
+	
+}

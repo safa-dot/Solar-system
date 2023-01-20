@@ -1,0 +1,27 @@
+.content-container {
+	width: 100%;
+}
+
+
+.content-container .text-zone {
+    height: 50vh;
+    animation-timeline: scroll();
+    animation: slideInRight 2s ease-in-out;
+}
+
+.content-container .planet-facts {
+	padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 576px){
+    .content-container .planet-facts h1 {
+        padding-top: 170px;
+    }
+}
+
+@media (min-width: 576px){
+    .content-container .planet-facts h1 {
+        padding-top: 60px;
+    }
+}
